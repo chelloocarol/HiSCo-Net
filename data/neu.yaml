@@ -1,0 +1,5 @@
+path: datasets/NEU-DET
+train: images/train
+val: images/val
+test: images/test
+names: [crazing, inclusion, patches, pitted_surface, rolled_in_scale, scratches]

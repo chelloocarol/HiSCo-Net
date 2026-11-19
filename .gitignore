@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+runs/
+/results/
+datasets/
+*.cache
+.runtime_config/
+
+# Keep unrelated training artifacts private; the three release checkpoints are public.
+*.pt
+*.pth
+!/weights/HiSCoNet_pretrained_neu.pt
+!/weights/HiSCoNet_pretrained_cr7.pt
+!/weights/HiSCoNet_pretrained_pcb.pt

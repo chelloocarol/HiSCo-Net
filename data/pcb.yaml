@@ -1,0 +1,6 @@
+# Use the 3352/718/719 train/val/test membership in data/splits/pcb.
+path: datasets/PCB-IND
+train: images/train
+val: images/val
+test: images/test
+names: [mouse_bite, missing_copper, scratch, spurious_copper, copper_burr, stain, short, open]

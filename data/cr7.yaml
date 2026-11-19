@@ -1,0 +1,5 @@
+path: datasets/CR7-DET
+train: images/train
+val: images/val
+test: images/test
+names: [inclusion, dents, oil_spots, pits, punching, linear, macular]

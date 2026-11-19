@@ -1,0 +1,27 @@
+{
+  "dataset": "NEU-DET",
+  "source_image_count": 1800,
+  "split_ratio": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "image_counts": {
+    "train": 1262,
+    "val": 272,
+    "test": 266
+  },
+  "duplicate_policy": "Retain both original image files and their original annotations in the training split.",
+  "retained_exact_duplicate_pair": [
+    "patches_101.jpg",
+    "patches_105.jpg"
+  ],
+  "duplicate_image_sha256": "4d2de82731b86cdbc7a66f2a9bfb01074bb4cb65e47bccf06b66470d53857071",
+  "membership_sha256": {
+    "train": "5c804655b17d2f0f806556164a71fe07d0d6dbf49d295914caff42778d057e18",
+    "val": "168f1e0def8fe9d811b0ed2af4ed04dc4b090df12cb1b453aec920780982ce14",
+    "test": "7754b68a553b30d8dcda41f7477dab3b6e58ed8e9b5fa66f2c317e5ddab6a5ca"
+  },
+  "historical_checkpoint_training_image_count": 1261,
+  "validation_and_test_membership_unchanged": true
+}

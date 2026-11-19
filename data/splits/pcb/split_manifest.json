@@ -1,0 +1,35 @@
+{
+  "dataset": "PCB-IND",
+  "classes": [
+    "mouse_bite",
+    "missing_copper",
+    "scratch",
+    "spurious_copper",
+    "copper_burr",
+    "stain",
+    "short",
+    "open"
+  ],
+  "seed": 20260725,
+  "split_ratio": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "image_counts": {
+    "train": 3352,
+    "val": 718,
+    "test": 719
+  },
+  "algorithm": "Python random.Random(seed).shuffle on lexicographically sorted unique image stems; first 3352 train, next 718 val, final 719 test; membership files sorted for readability",
+  "annotation_counts": {
+    "train": 4174,
+    "val": 894,
+    "test": 863
+  },
+  "membership_sha256": {
+    "train": "044e286d0fe6e9109595daf447b13e3316c78affb88ba63996650da74be6a267",
+    "val": "a100fdee566463443e714ec04045262ce60d6d561eb648bbe9923f98c35cc60b",
+    "test": "504416f1e77531929e07aa8d3b3dc6e65777a524c83cc14d541e3fc471c66d1a"
+  }
+}
