@@ -70,7 +70,7 @@ We evaluate HiSCo-Net on NEU-DET, CR7-DET, and PCB-IND. Download the original da
 
 All three datasets use approximately **70%/15%/15%** train/val/test splits. The exact image membership is public in [data/splits](data/splits/), with class mappings in the dataset YAMLs above. PCB-IND uses the updated **3352/718/719-image** partition, not the earlier 80%/10%/10% partition. Original images remain available from the dataset providers.
 
-The public NEU-DET mapping retains all **1800 source image files** (1262/272/266), including the duplicate-image pair in the training split. The reported historical checkpoints used 1261 training files; validation/test membership is unchanged. See the [NEU split manifest](data/splits/neu/split_manifest.json) for this distinction.
+The public NEU-DET partition contains **1800 image files**: **1262 training**, **272 validation**, and **266 test** images. Exact membership and file checksums are provided in the [NEU split manifest](data/splits/neu/split_manifest.json).
 
 ## 6. Release status and installation
 
